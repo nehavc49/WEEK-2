@@ -1,0 +1,21 @@
+1. What is a Vector Database?
+
+A vector database is a specialized database designed to store and manage vector data, which are numerical representations of objects, often used in machine learning and natural language processing (NLP). Unlike traditional databases, which are optimized for storing and retrieving structured data, vector databases focus on storing high-dimensional vectors that represent various types of data, such as text, images, and audio. These vectors are typically produced by embedding models, which map complex objects into multi-dimensional vectors for easier comparison, searching, and retrieval.
+
+The core functionality of a vector database is to perform similarity searches efficiently. It uses mathematical operations like cosine similarity or Euclidean distance to find vectors that are similar to a given query vector. For instance, in NLP, a vector database can store word embeddings and allow for searching for words or phrases with similar meanings based on their vector representations.
+
+Vector databases are essential for applications such as image search, document retrieval, recommendation systems, and AI-powered chatbots. They provide powerful tools for handling unstructured data and enable fast, scalable search across large datasets.
+
+In essence, vector databases bridge the gap between raw data and actionable insights by making it easier to work with complex, unstructured data types in machine learning and AI contexts. Some popular vector database systems include Chroma, Pinecone, and Weaviate.
+
+---
+
+2. What is Agentic RAG?
+
+Agentic RAG (Reinforcement Learning with Agentic Generative Models) refers to a sophisticated concept in AI that integrates reinforcement learning (RL) with generative models in a more agent-oriented, goal-driven framework. In traditional RL, an agent learns to make decisions by interacting with an environment, receiving feedback in the form of rewards or penalties, and improving its policy to maximize long-term gains. In contrast, Agentic RAG enhances this process by incorporating generative models that enable the agent to generate new data, actions, or strategies based on past experiences.
+
+The key aspect of Agentic RAG is the focus on "agentic" behavior, where an AI agent learns to generate solutions or responses actively, guided by its understanding of objectives, context, and past performance. This approach combines generative capabilities—like those seen in models such as GPT or GANs—with the goal-directed decision-making of reinforcement learning. By doing so, the agent can not only react to the environment but also plan and generate innovative actions that lead to better outcomes in complex situations.
+
+In practical terms, Agentic RAG can be applied in scenarios where the environment is dynamic and complex, such as in robotics, autonomous vehicles, or interactive AI systems. The agent's ability to generate contextually relevant actions based on its understanding of the environment and its goals makes it particularly powerful for real-time decision-making and adaptation. By combining generative models with RL, Agentic RAG opens up new possibilities for more autonomous and creative AI systems, capable of achieving tasks with minimal human input and optimizing for long-term success.
+
+Agentic RAG is still an emerging concept in AI research, but it shows significant promise for advancing AI's ability to make intelligent, context-aware decisions while generating creative solutions. It aligns well with the broader trend of making AI systems more autonomous and adaptable in real-world applications.
