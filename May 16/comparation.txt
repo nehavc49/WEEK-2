@@ -1,0 +1,12 @@
+| Aspect               | Single-Agent RAG                                  | Multi-Agent RAG                                    |
+| -------------------- | ------------------------------------------------- | -------------------------------------------------- |
+|   Number of Agents   | Only one agent handles everything.                | Multiple agents work together.                     |
+|   Complexity         | Easy to build and manage.                         | More complex to design and coordinate.             |
+|   Speed              | Usually faster since only one agent processes.    | Can be slower because agents communicate.          |
+|   Handling Tasks     | Handles simple or straightforward queries well.   | Better at complex, multi-step or diverse tasks.    |
+|   Accuracy           | May miss details or make errors on tough queries. | More accurate due to collaboration and checks.     |
+|   Flexibility        | Less flexible, limited to what one agent can do.  | More flexible by combining different agent skills. |
+| Scalability          | Less scalable for big or varied workloads.        | Scales better by distributing tasks among agents.  |
+|   Error Handling     | Errors harder to detect and fix.                  | Errors easier to catch with multiple viewpoints.   |
+|   Resource Usage     | Uses fewer resources overall.                     | Uses more resources due to multiple agents.        |
+|   Development Time   | Faster to develop and deploy.                     | Takes longer to develop and test.                  |
