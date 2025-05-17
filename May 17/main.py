@@ -2,7 +2,7 @@ import google.generativeai as genai
 import time
 
 # 🔐 Set your Gemini API key
-GOOGLE_API_KEY = "AIzaSyDVpzkqtOh34j7RtU0crvTfwFjExTwELxU"
+GOOGLE_API_KEY = "YOURS_API_KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def planner_agent(user_prompt: str) -> str:
